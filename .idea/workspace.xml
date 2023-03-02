@@ -10,10 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8297955-8205-4ae4-a819-3ce318e21477" name="Changes" comment="upadated">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/connectionpool/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/connectionpool/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/list/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/list/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/list/QueueList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/list/QueueList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/shape/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/shape/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/OverAllProject_jar/OverAllProject.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/OverAllProject_jar/OverAllProject.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677774541997</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="upadated">
+      <created>1677774910134</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1677774910134</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
