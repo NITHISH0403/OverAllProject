@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8297955-8205-4ae4-a819-3ce318e21477" name="Changes" comment="upadated">
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OverAllProject_jar/OverAllProject.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/OverAllProject_jar/OverAllProject.jar" afterDir="false" />
-    </list>
+    <list default="true" id="a8297955-8205-4ae4-a819-3ce318e21477" name="Changes" comment="upadated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -249,7 +247,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677774910134</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="upadated">
+      <created>1677775199406</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1677775199406</updated>
+    </task>
+    <task id="LOCAL-00028" summary="upadated">
+      <created>1677775300576</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1677775300576</updated>
+    </task>
+    <task id="LOCAL-00029" summary="upadated">
+      <created>1677775396735</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1677775396735</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
