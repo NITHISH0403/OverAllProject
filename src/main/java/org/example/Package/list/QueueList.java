@@ -1,6 +1,7 @@
 package org.example.Package.list;
 
 import java.util.Scanner;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class QueueList {
@@ -45,7 +46,7 @@ public class QueueList {
                 str.append(current.Name).append(" ");
                 current = current.next;
             }
-            l.info(str.toString());
+            l.log(Level.INFO,()->str.toString());
         }
     }
     public void connect() {
