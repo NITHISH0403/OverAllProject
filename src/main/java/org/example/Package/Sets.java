@@ -20,14 +20,18 @@ public class Sets {
                     case 2:
                         Hashmap hm = new Hashmap();
                         hm.display();
+                        break;
                     case 3:
                         Treeset ts = new Treeset();
                         ts.display();
+                        break;
                     case 4:
                         Treemap tm = new Treemap();
                         tm.display();
+                        break;
                     default:
                         l.info("The Program End.");
+                        break;
                 }
             }while (ch<5);
         }
