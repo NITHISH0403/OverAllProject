@@ -20,7 +20,7 @@ class Point implements  Cloneable{
     }
 
     //this method calls object clone().
-    public Object clone() {
+    public Object clonepoint() {
         try {
             //call clone in object.
             return super.clone();

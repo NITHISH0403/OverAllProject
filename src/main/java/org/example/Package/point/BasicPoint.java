@@ -10,7 +10,7 @@ public class BasicPoint {
 
             //call object clone();
             //clone o1.
-            Point o2 = (Point) o1.clone();
+            Point o2 = (Point) o1.clonepoint();
 
             l.info(o1.x1 + " " + o1.y1);
             if (o1.x1.equals(o2.x2) && o1.y1.equals(o2.y2)) {
