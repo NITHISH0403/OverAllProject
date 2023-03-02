@@ -7,9 +7,9 @@ public class Shape{
         Logger l = Logger.getLogger("com.api.jar");
         Scanner s = new Scanner(System.in);
         String error = "The Class Not Found";
-        public Triangle t;
-        public Rectangle r;
-        public Circle c;
+        public Triangle t = null;
+        public Rectangle r = null;
+        public Circle c = null;
         int ch;
 
         public void selection() {
