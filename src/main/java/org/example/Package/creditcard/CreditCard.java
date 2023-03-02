@@ -12,7 +12,7 @@ public class  CreditCard
             Card o1 = new Card();
             //call object clone().
             //clone o1.
-            Card o2 = o1.cloneCard();
+            Card o2 = (Card) o1.cloneCard();
 
             l.log(Level.INFO, () -> holdername + o1.hname + " " + cardno + o1.cno + " " + "Valid To:" + o1.vto);
             if (o1.hname.equals(o2.holderName) && o1.cno.equals(o2.cardNo) && o1.vto.equals(o2.validTo)) {
