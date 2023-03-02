@@ -2,9 +2,10 @@ package org.example.overallpackage.list;
 
 class Node{
     Node next = null;
-    String Name;
+    String name;
 
     Node(String nm){
-        Name = nm;
+        name = nm;
     }
+
 }

@@ -10,43 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8297955-8205-4ae4-a819-3ce318e21477" name="Changes" comment="upadated">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/bankaccount/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/bankaccount/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/bankaccount/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/bankaccount/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/calculator/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/calculator/Addition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/calculator/Calculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/calculator/Calculation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/calculator/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/calculator/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/calculator/Division.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/calculator/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/calculator/Multiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/calculator/Subtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/calculator/Subtraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/connectionpool/ConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/connectionpool/ConnectionPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/connectionpool/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/connectionpool/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/contacts/Contacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/contacts/Contacts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/contacts/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/contacts/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/creditcard/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/creditcard/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/creditcard/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/creditcard/CreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/frequency/Frequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/frequency/Frequency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/list/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/list/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/list/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/list/QueueList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/list/QueueList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/point/BasicPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/point/BasicPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/point/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/point/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/sets/Hashmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/sets/Hashmap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/sets/Hashset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/sets/Hashset.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/sets/Sets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/sets/Sets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/sets/Treemap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/sets/Treemap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/sets/Treeset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/sets/Treeset.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/shape/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/shape/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/shape/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/shape/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/shape/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/shape/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/shape/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/shape/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/student/Process.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/student/Process.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/student/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/studentdetails/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/studentdetails/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/studentdetails/StudentDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/studentdetails/StudentDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/studentdetails/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/studentdetails/StudentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/tictactoc/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/tictactoc/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Package/tictactoc/Tictactoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/tictactoc/Tictactoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/connectionpool/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/connectionpool/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/list/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/list/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/list/QueueList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/list/QueueList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/shape/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/shape/Shape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,7 +231,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677774209939</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="upadated">
+      <created>1677774510006</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1677774510006</updated>
+    </task>
+    <task id="LOCAL-00025" summary="upadated">
+      <created>1677774541997</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1677774541997</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

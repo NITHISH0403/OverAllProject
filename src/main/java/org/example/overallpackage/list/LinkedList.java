@@ -67,7 +67,7 @@ public class LinkedList {
         Node current = head;
         StringBuilder str = new StringBuilder();
         while (current != null) {
-            str.append(current.Name);
+            str.append(current.name);
             current = current.next;
         }
         l.log(Level.INFO, () -> str + " ");

@@ -2,15 +2,14 @@ package org.example.overallpackage.shape;
 
 import java.util.logging.*;
 import java.util.*;
-import java.lang.*;
 
 public class Shape{
         Logger l = Logger.getLogger("com.api.jar");
         Scanner s = new Scanner(System.in);
         String error = "The Class Not Found";
-        public Triangle t;
-        public Rectangle r;
-        public Circle c;
+        public static Triangle t;
+        public static Rectangle r;
+        public static Circle c;
         int ch;
 
         public void selection() {

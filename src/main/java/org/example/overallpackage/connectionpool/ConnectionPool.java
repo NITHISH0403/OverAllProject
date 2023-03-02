@@ -15,7 +15,7 @@ public class ConnectionPool{
             l.info("Enter Your Choice \n 1.open \n 2.close");
             int ch = s.nextInt();
             switch (ch) {
-                case 1 -> d1.OpenCon(url, user, pass);
+                case 1 -> d1.openCon(url, user, pass);
                 case 2 -> d1.closeCon();
                 default -> l.info("The Program is stoped.");
             }

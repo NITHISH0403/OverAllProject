@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 public class QueueList {
     Node head;
     int size;
-    public Logger l = Logger.getLogger("com.api.jar");
+    static Logger l = Logger.getLogger("com.api.jar");
     public QueueList(){
         head = null;
         size = 0;
@@ -32,7 +32,7 @@ public class QueueList {
 
         head = current.next;
         l.info("The remove value is:");
-        l.info(current.Name);
+        l.info(current.name);
     }
 
     void print(){
@@ -43,7 +43,7 @@ public class QueueList {
         }
         else{
             while(current != null ){
-                str.append(current.Name).append(" ");
+                str.append(current.name).append(" ");
                 current = current.next;
             }
             l.log(Level.INFO,()->str.toString());
