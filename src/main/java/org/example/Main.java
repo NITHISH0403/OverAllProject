@@ -1,19 +1,19 @@
 package org.example;
 
-import org.example.Package.Bankaccount.BankAccount;
-import org.example.Package.Calculator.Calculator;
-import org.example.Package.Connectionpool.ConnectionPool;
-import org.example.Package.Contacts.Contacts;
-import org.example.Package.Creditcard.CreditCard;
-import org.example.Package.Frequency.Frequency;
-import org.example.Package.List.LinkedList;
-import org.example.Package.List.QueueList;
-import org.example.Package.Point.BasicPoint;
-import org.example.Package.Sets.Sets;
-import org.example.Package.Shape.Shape;
-import org.example.Package.Student.Student;
-import org.example.Package.Studentdetails.StudentDetails;
-import org.example.Package.Tictactoc.Tictactoc;
+import org.example.Package.bankaccount.BankAccount;
+import org.example.Package.calculator.Calculator;
+import org.example.Package.connectionpool.ConnectionPool;
+import org.example.Package.contacts.Contacts;
+import org.example.Package.creditcard.CreditCard;
+import org.example.Package.frequency.Frequency;
+import org.example.Package.list.LinkedList;
+import org.example.Package.list.QueueList;
+import org.example.Package.point.BasicPoint;
+import org.example.Package.sets.Sets;
+import org.example.Package.shape.Shape;
+import org.example.Package.student.Student;
+import org.example.Package.studentdetails.StudentDetails;
+import org.example.Package.tictactoc.Tictactoc;
 
 import java.io.IOException;
 import java.util.Scanner;
