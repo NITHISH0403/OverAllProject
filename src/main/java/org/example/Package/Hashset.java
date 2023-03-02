@@ -15,7 +15,7 @@ class Hashset{
     int n;
     void display() {
         do {
-            l.info("Enter the Choice:\n1. Add Element\n2. set Size\n3. Print the set\n4. Remove Element\n5. Remove All the Element\n6. Exit");
+            l.info("Enter the Choice:\n1. Add Element\n2. set Size\n3. Print the set\n4. Remove Element\n5. Exit");
             ch = s1.nextInt();
             switch (ch) {
                 case 1:
@@ -38,13 +38,10 @@ class Hashset{
                     String r = s2.nextLine();
                     h.remove(r);
                     break;
-                case 5:
-                    h.removeAll(h);
-                    break;
                 default:
                     l.info("The Process is Complete.");
             }
-        }while (ch<6);
+        }while (ch<5);
     }
 
 }
