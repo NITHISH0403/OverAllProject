@@ -1,10 +1,10 @@
 package org.example;
 
-import org.example.Package.BankAccount.BankAccount;
+import org.example.Package.Bankaccount.BankAccount;
 import org.example.Package.Calculator.Calculator;
-import org.example.Package.ConnectionPool.ConnectionPool;
+import org.example.Package.Connectionpool.ConnectionPool;
 import org.example.Package.Contacts.Contacts;
-import org.example.Package.CreditCard.CreditCard;
+import org.example.Package.Creditcard.CreditCard;
 import org.example.Package.Frequency.Frequency;
 import org.example.Package.List.LinkedList;
 import org.example.Package.List.QueueList;
@@ -12,7 +12,7 @@ import org.example.Package.Point.BasicPoint;
 import org.example.Package.Sets.Sets;
 import org.example.Package.Shape.Shape;
 import org.example.Package.Student.Student;
-import org.example.Package.StudentDetails.StudentDetails;
+import org.example.Package.Studentdetails.StudentDetails;
 import org.example.Package.Tictactoc.Tictactoc;
 
 import java.io.IOException;

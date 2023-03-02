@@ -1,4 +1,4 @@
-package org.example.Package.CreditCard;
+package org.example.Package.Creditcard;
 
 import java.util.logging.*;
 

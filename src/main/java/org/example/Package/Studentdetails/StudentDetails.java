@@ -1,4 +1,4 @@
-package org.example.Package.StudentDetails;
+package org.example.Package.Studentdetails;
 
 import java.util.*;
 import java.util.logging.*;

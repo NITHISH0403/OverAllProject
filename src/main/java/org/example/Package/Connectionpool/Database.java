@@ -1,4 +1,4 @@
-package org.example.Package.ConnectionPool;
+package org.example.Package.Connectionpool;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

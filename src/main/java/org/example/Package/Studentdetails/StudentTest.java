@@ -1,4 +1,4 @@
-package org.example.Package.StudentDetails;
+package org.example.Package.Studentdetails;
 
 class StudentTest{
     String sname;
