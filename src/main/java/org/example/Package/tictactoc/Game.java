@@ -68,26 +68,26 @@ class Game{
         for(int i = 0; i<4; i++){
             //hor
             if(a[i][0].equals(a[i][1]) && a[i][1].equals(a[i][2]) && a[i][2].equals(a[i][3]) && a[i][3].equals(a[i][0])){
-                winner(x);
-                System.exit(0);
+                declare(x);
 
             }
             //ver
             else if(a[0][i].equals(a[1][i]) && a[1][i].equals(a[2][i]) && a[2][i].equals(a[3][i]) && a[3][i].equals(a[0][i])){
-                winner(x);
-                System.exit(0);
+                declare(x);
             }
             //left to right cross
             else if (a[0][0].equals(a[1][1]) && a[1][1].equals(a[2][2]) && a[2][2].equals(a[3][3])) {
-                winner(x);
-                System.exit(0);
+                declare(x);
             }
             //right to left cross
             else if (a[0][3].equals(a[1][2]) && a[1][2].equals(a[2][1]) && a[2][1].equals(a[3][0])) {
-                winner(x);
-                System.exit(0);
+                declare(x);
             }
         }
+    }
+    void declare(String x){
+        winner(x);
+        System.exit(0);
     }
     //announce the final winner
     void winner(String x){
