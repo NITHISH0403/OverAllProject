@@ -25,10 +25,10 @@ class Card implements Cloneable
         validTo = s.nextLine();
     }
     //This method calls Object clone();
-    public Object clone(){
+    Card cloneCard(){
         try{
             //call clone in object.
-            return super.clone();
+            return (Card) super.clone();
         }catch (CloneNotSupportedException e){
             l.info("Cloning not allowed");
             return this;
