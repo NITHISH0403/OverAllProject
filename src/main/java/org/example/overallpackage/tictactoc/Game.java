@@ -1,11 +1,15 @@
 package org.example.overallpackage.tictactoc;
 
+import java.io.FileDescriptor;
+import java.io.FileOutputStream;
+import java.io.PrintStream;
 import java.util.Scanner;
 import java.util.logging.*;
 class Game{
     protected int search;
     protected static Scanner s = new Scanner(System.in);
-    protected static Logger l = Logger.getLogger("NITHISH");
+    protected static Logger l = Logger.getLogger("com.api.jar");
+    PrintStream p = new PrintStream(new FileOutputStream(FileDescriptor.out));
     protected int play = 0;
     protected String player1 = "Player 1 is Winner.";
     protected String player2 = "Player 2 is Winner.";
@@ -17,7 +21,7 @@ class Game{
             //Player 1
             if(play != 16) {
                 if (play % 2 == 0) {
-                    l.info("Choose the place in Player 1 -> X:");
+                    p.println("Choose the place in Player 1 -> X:");
                     search = s.nextInt();
 
                     player(a, "X");
@@ -28,7 +32,7 @@ class Game{
                 }
                 //player 2
                 else {
-                    l.info("Choose the place in Player 2 -> O:");
+                    p.println("Choose the place in Player 2 -> O:");
                     search = s.nextInt();
 
                     player(a, "O");
@@ -39,7 +43,7 @@ class Game{
                 }
             }
             else{
-                l.log(Level.INFO,()->draw);
+                p.println(draw);
                 System.exit(0);
             }
 
@@ -56,7 +60,7 @@ class Game{
                         play++;
                     }
                     else {
-                        l.info("Please, Choose another place.");
+                        p.println("Please, Choose another place.");
                     }
                 }
             }
@@ -91,17 +95,17 @@ class Game{
     }
     //announce the final winner
     void winner(String x){
-        l.log(Level.INFO,()->x);
+        p.println(x);
     }
     //display the current board
     void display(String[][] a){
         for (int i = 0; i < 4; i++) {
-            System.out.print("|");
+            p.print("|");
             for (int j = 0; j < 4; j++) {
                 String n = String.valueOf(a[i][j]);
-                System.out.print("\t" + n + "\t" + "|");
+                p.print("\t" + n + "\t" + "|");
             }
-            System.out.println("\n");
+            p.println("\n");
         }
     }
 }

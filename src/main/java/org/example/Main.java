@@ -87,6 +87,7 @@ public class Main {
                     break;
                 case 13:
                     Tictactoc tictactoc = new Tictactoc();
+                    tictactoc.print();
                     break;
                 default:
                     System.exit(0);
