@@ -3,7 +3,7 @@ package org.example.overallpackage.creditcard;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
-class Card implements Cloneable
+class Card implements cloneable
 {
     Logger l = Logger.getLogger("com.api.jar");
     Scanner s = new Scanner(System.in);
