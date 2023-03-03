@@ -25,7 +25,6 @@ class Card implements cloneable
         validTo = s.nextLine();
     }
 
-    //This method calls Object clone();
     public Object clonecard(){
         try{
             //call clone in object.
