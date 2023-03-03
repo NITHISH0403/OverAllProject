@@ -30,7 +30,7 @@ public class Shape{
                     int side2 = s.nextInt();
 
                     try {
-                        Class.forName("org.example.overallpackage.Triangle");
+                        Class.forName("org.example.overallpackage.shape.Triangle");
                         t = new Triangle(base, height, side1, side2);
                         l.log(Level.INFO, () -> "the perimeter of Triangle :" + t.perimeter());
                         l.log(Level.INFO, () -> "the area of Triangle :" + t.area());
@@ -44,7 +44,7 @@ public class Shape{
                     l.info("Enter the length value:");
                     int length = s.nextInt();
                     try {
-                        Class.forName("org.example.overallpackage.Rectangle");
+                        Class.forName("org.example.overallpackage.shape.Rectangle");
                         r = new Rectangle(width, length);
                         l.log(Level.INFO, () -> "the perimeter of Rectangle :" + r.perimeter());
                         l.log(Level.INFO, () -> "the area  of Rectangle:" + r.area());
@@ -55,7 +55,7 @@ public class Shape{
                     l.info("Enter the radius value:");
                     int radius = s.nextInt();
                     try {
-                        Class.forName("org.example.overallpackage.Circle");
+                        Class.forName("org.example.overallpackage.shape.Circle");
                         c = new Circle(radius);
                         l.log(Level.INFO, () -> "the perimeter of Circle :" + c.perimeter());
                         l.log(Level.INFO, () -> "the area of Circle:" + c.area());
