@@ -7,6 +7,7 @@ import java.util.Scanner;
 import java.util.logging.*;
 class Game{
     protected int search;
+    protected int flag = 0;
     protected static Scanner s = new Scanner(System.in);
     protected static Logger l = Logger.getLogger("com.api.jar");
     PrintStream p = new PrintStream(new FileOutputStream(FileDescriptor.out));
@@ -17,37 +18,35 @@ class Game{
 
     //find the Player do play
     protected void players(String[][] a){
-        while (true) {
+        do{
             //Player 1
-            if(play != 16) {
-                if (play % 2 == 0) {
-                    p.println("Choose the place in Player 1 -> X:");
-                    search = s.nextInt();
+                if (play != 16) {
+                    if (play % 2 == 0) {
+                        p.println("Choose the place in Player 1 -> X:");
+                        search = s.nextInt();
 
-                    player(a, "X");
+                        player(a, "X");
 
-                    display(a);
+                        display(a);
 
-                    condition(a, player1);
+                        condition(a, player1);
+                    }
+                    //player 2
+                    else {
+                        p.println("Choose the place in Player 2 -> O:");
+                        search = s.nextInt();
+
+                        player(a, "O");
+
+                        display(a);
+
+                        condition(a, player2);
+                    }
+                } else {
+                    p.println(draw);
+                    flag++;
                 }
-                //player 2
-                else {
-                    p.println("Choose the place in Player 2 -> O:");
-                    search = s.nextInt();
-
-                    player(a, "O");
-
-                    display(a);
-
-                    condition(a, player2);
-                }
-            }
-            else{
-                p.println(draw);
-                System.exit(0);
-            }
-
-        }
+            }while (flag==0);
     }
 
     //player choose is replace our Symbol
@@ -90,8 +89,10 @@ class Game{
         }
     }
     void declare(String x){
-        winner(x);
-        System.exit(0);
+        if(flag==0) {
+            winner(x);
+            flag++;
+        }
     }
     //announce the final winner
     void winner(String x){
