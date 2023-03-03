@@ -50,7 +50,7 @@ public class Hashmap {
                     h.replace(k, select, replace);
                     break;
                 case 5:
-                    for (Map.Entry m : h.entrySet()) {
+                    for (Map.Entry<m>: h.entrySet()) {
                         l.log(Level.INFO, () -> m.getKey() + " " + m.getValue());
                     }
                     break;
