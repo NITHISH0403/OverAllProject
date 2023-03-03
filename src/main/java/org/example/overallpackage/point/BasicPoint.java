@@ -8,7 +8,7 @@ public class BasicPoint {
         public void process() {
             Point o1 = new Point();
 
-            //call object clone();
+           
             //clone o1.
             Point o2 = (Point) o1.clonepoint();
 
