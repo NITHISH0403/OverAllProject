@@ -75,15 +75,15 @@ class Game{
 
             }
             //ver
-            else if(a[0][i].equals(a[1][i]) && a[1][i].equals(a[2][i]) && a[2][i].equals(a[3][i]) && a[3][i].equals(a[0][i])){
+            if(a[0][i].equals(a[1][i]) && a[1][i].equals(a[2][i]) && a[2][i].equals(a[3][i]) && a[3][i].equals(a[0][i])){
                 declare(x);
             }
             //left to right cross
-            else if (a[0][0].equals(a[1][1]) && a[1][1].equals(a[2][2]) && a[2][2].equals(a[3][3])) {
+            if (a[0][0].equals(a[1][1]) && a[1][1].equals(a[2][2]) && a[2][2].equals(a[3][3])) {
                 declare(x);
             }
             //right to left cross
-            else if (a[0][3].equals(a[1][2]) && a[1][2].equals(a[2][1]) && a[2][1].equals(a[3][0])) {
+            if (a[0][3].equals(a[1][2]) && a[1][2].equals(a[2][1]) && a[2][1].equals(a[3][0])) {
                 declare(x);
             }
         }
