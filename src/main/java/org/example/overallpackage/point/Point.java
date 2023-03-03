@@ -19,7 +19,6 @@ class Point implements  Cloneable{
         y2 =s.nextLine();
     }
 
-    //this method calls object clone().
     public Object clonepoint() {
         try {
             //call clone in object.
