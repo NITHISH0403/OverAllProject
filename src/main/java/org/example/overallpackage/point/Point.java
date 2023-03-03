@@ -3,7 +3,7 @@ package org.example.overallpackage.point;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
-class Point implements  cloneable{
+class Point implements  Cloneable{
     String x1 = String.valueOf(10);
     String y1 = String.valueOf(20);
     String x2;
