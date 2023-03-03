@@ -29,7 +29,7 @@ class Card implements Cloneable
     public Object clonecard(){
         try{
             //call clone in object.
-            return (Card) super.clone();
+            return super.clone();
         }catch (CloneNotSupportedException e){
             l.info("Cloning not allowed");
             return this;
