@@ -9,12 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8297955-8205-4ae4-a819-3ce318e21477" name="Changes" comment="upadated">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/OverAllProject_jar/OverAllProject.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/OverAllProject_jar/OverAllProject.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/creditcard/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/creditcard/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/shape/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/overallpackage/shape/Shape.java" afterDir="false" />
-    </list>
+    <list default="true" id="a8297955-8205-4ae4-a819-3ce318e21477" name="Changes" comment="upadated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -294,7 +289,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677775613247</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="upadated">
+      <created>1677816466607</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1677816466607</updated>
+    </task>
+    <task id="LOCAL-00034" summary="upadated">
+      <created>1677816728436</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1677816728436</updated>
+    </task>
+    <task id="LOCAL-00035" summary="upadated">
+      <created>1677816802090</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1677816802090</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
