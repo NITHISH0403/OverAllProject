@@ -27,7 +27,7 @@ public class Main {
         while (true) {
             l.info("Enter the Which Program is Run: \n1. BankAccount\n2. Basic Shape\n3. Student\n4. Connection Pool" +
                     "\n5. Point in 2D Space\n6. Credit Card\n7. Student Details\n8. DataStructure\n9. Sets\n10. Calculation" +
-                    "\n11. Contacts\n12. Frequency\n13. Tic_Tac_Toc");
+                    "\n11. Contacts\n12. Frequency\n13. Tic_Tac_Toc\n14. Exit");
             ch = s.nextInt();
             switch (ch) {
                 case 1:

@@ -8,16 +8,18 @@ public class ConnectionPool{
         String  url = "jdbc:mysql://localhost:3306/student";
         String user = "root";
         String pass = "root";
+        int ch;
 
         public void connect() {
             Database d1 = Database.getInstance();
-
-            l.info("Enter Your Choice \n 1.open \n 2.close");
-            int ch = s.nextInt();
-            switch (ch) {
-                case 1 -> d1.openCon(url, user, pass);
-                case 2 -> d1.closeCon();
-                default -> l.info("The Program is stoped.");
-            }
+            do {
+                l.info("Enter Your Choice \n 1.open \n 2.close\n3. Exit");
+                ch = s.nextInt();
+                switch (ch) {
+                    case 1 -> d1.openCon(url, user, pass);
+                    case 2 -> d1.closeCon();
+                    default -> l.info("The Program is stoped.");
+                }
+            }while (ch<3);
         }
 }
